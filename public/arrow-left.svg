@@ -1,0 +1,13 @@
+<svg width="67" height="102" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 102">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <linearGradient id="svg_14" x1="0" y1="0.5" x2="0.5" y2="1">
+   <stop offset="0" stop-color="#222222"/>
+   <stop offset="1" stop-color="#444444"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>previous</title>
+  <path transform="rotate(180 33.5,52) " fill="url(#svg_14)" stroke="#444444" stroke-linejoin="null" stroke-linecap="null" d="m2,2l0,100l63,-50l-63,-50z" id="svg_9"/>
+ </g>
+</svg>

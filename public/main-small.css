@@ -1,0 +1,31 @@
+/* status colors */
+/* dialogs */
+/* gantt-chart colors */
+body {
+  padding: 0;
+  margin: 0;
+}
+.driverrun {
+  min-width: 0px;
+}
+.driverrun .hide-small {
+  display: none !important;
+}
+.driverrun .control .options {
+  display: block;
+}
+.driverrun .control .options label {
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.driverrun .left {
+  width: 100%;
+}
+.driverrun .right {
+  width: 100%;
+  left: 0px;
+}
+.driverrun .small-inlineBlock {
+  display: inline-block;
+}

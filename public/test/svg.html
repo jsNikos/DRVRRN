@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<svg width="75" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 95">
+<!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Driver Stop</title>
+  <path id="svg_1"
+			d="m2.94501,21.27235 l19.03796,-19.03735 l26.92438,0 l19.03763,19.03735 l0,26.9243l -19.03763,19.03835l -26.92438,0 -19.03796,-19.03835l0,-26.9243z"
+			stroke="#000000" fill="#ffffff" />
+  <path id="svg_3"
+			d="m8.50002,23.72987 l15.81615,-15.22987 l22.36795,0 l15.81586,15.22987 l0,21.53946l -15.81586,15.23067l -22.36795,0l -15.81615,-15.23067 l0,-21.53946z"
+			stroke-width="0" stroke="#000000" fill="#ff0000" />
+  <text xml:space="preserve" text-anchor="middle" font-family="serif"
+			font-size="24" id="svg_6" y="42" x="31.21429" stroke-linecap="null"
+			stroke-linejoin="null" stroke-width="0" stroke="#000000"
+			fill="#ffffff">3'</text>
+  <line stroke-width="3" id="svg_7" y2="90.85207" x2="36.07101"
+			y1="66.85207" x1="36.07101" stroke-linecap="null"
+			stroke-linejoin="null" stroke="#000000" fill="none" />
+ </g>
+</svg>
+
+<script class="stop-sign" type="template"><svg width="75" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 95">
+<!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Driver Stop</title>
+  <path id="svg_1"
+			d="m2.94501,21.27235 l19.03796,-19.03735 l26.92438,0 l19.03763,19.03735 l0,26.9243l -19.03763,19.03835l -26.92438,0 -19.03796,-19.03835l0,-26.9243z"
+			stroke="#000000" fill="#ffffff" />
+  <path id="svg_3"
+			d="m8.50002,23.72987 l15.81615,-15.22987 l22.36795,0 l15.81586,15.22987 l0,21.53946l -15.81586,15.23067l -22.36795,0l -15.81615,-15.23067 l0,-21.53946z"
+			stroke-width="0" stroke="#000000" fill="#ff0000" />
+  <text xml:space="preserve" text-anchor="middle" font-family="serif"
+			font-size="24" id="svg_6" y="42" x="31.21429" stroke-linecap="null"
+			stroke-linejoin="null" stroke-width="0" stroke="#000000"
+			fill="#ffffff">3'</text>
+  <line stroke-width="3" id="svg_7" y2="90.85207" x2="36.07101"
+			y1="66.85207" x1="36.07101" stroke-linecap="null"
+			stroke-linejoin="null" stroke="#000000" fill="none" />
+ </g>
+</svg></script>
+
+<canvas id="canvas" width="1000px" height="600px"></canvas> 
+</body>
+<script src="../js/libs/jQuery.js"></script>
+<script src="../js/libs/canvg/canvg.js"></script>
+<script src="../js/libs/canvg/rgbcolor.js"></script>
+<script src="../js/libs/canvg/StackBlur.js"></script>
+<script type="text/javascript">
+var ctx = jQuery('#canvas').get(0).getContext('2d');
+ctx.drawSvg(jQuery('.stop-sign').text(), 0 , 0 , 75, 95);
+</script>
+
+</html>

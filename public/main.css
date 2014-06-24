@@ -1,0 +1,138 @@
+/* status colors */
+/* dialogs */
+/* gantt-chart colors */
+/* fabric.js fix */
+.canvas-container {
+  display: none;
+}
+.driverrun {
+  min-width: 920px;
+}
+.driverrun .control {
+  min-height: 50px;
+  visibility: hidden;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  background-color: #919191;
+  padding: 10px;
+}
+.driverrun .control .options {
+  display: inline-block;
+}
+.driverrun .control label {
+  margin-top: 5px;
+}
+.driverrun .control label[for] {
+  background-image: url("checkbox_white.png");
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-size: 20px 20px;
+  padding-left: 20px;
+}
+.driverrun .control label[for].ui-state-active {
+  background-image: url("checked_checkbox_white.png");
+}
+.driverrun .small-inlineBlock {
+  display: none;
+}
+.driverrun .day-select-container {
+  display: inline-block;
+  overflow: visible;
+  height: 30px;
+  width: 200px;
+  position: relative;
+  z-index: 1;
+}
+.driverrun .datepicker {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  margin-top: 3px;
+}
+.driverrun .day-arrow {
+  display: inline-block;
+  height: 30px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.driverrun .day-select {
+  width: 150px;
+  padding: 3px 15px;
+}
+.driverrun .contents {
+  position: relative;
+  visibility: hidden;
+}
+.driverrun .left {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 25%;
+}
+.driverrun .right {
+  display: inline-block;
+  position: relative;
+  width: 75%;
+  left: 25%;
+}
+.driverrun .map {
+  border-radius: 6px;
+  height: 540px;
+  margin: 0px 5px 0 15px;
+  position: relative;
+  box-shadow: 0px 7px 10px 0px #222222;
+}
+.driverrun .map.loading:before {
+  content: '';
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1;
+  position: absolute;
+}
+.driverrun .map.loading:after {
+  content: '';
+  width: 60px;
+  height: 60px;
+  background-image: url("loading.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+.driverrun .drivers {
+  height: 550px;
+  padding-right: 5px;
+}
+.driverrun .drivers table {
+  table-layout: fixed;
+}
+.driverrun .drivers .dataTables_scrollHeadInner .dataTable {
+  height: 68px;
+}
+.driverrun .drivers .driver-run.selected {
+  background-color: #ffa500;
+}
+.driverrun table.dataTable tr.driver-run.selected td {
+  background-color: #ffa500;
+}
+.driverrun .drivers .driver-run:hover > td {
+  cursor: pointer;
+  background-color: #ffedcc;
+}
+.driverrun .legend {
+  min-height: 50px;
+  border-radius: 6px;
+  background-color: #919191;
+  padding: 10px;
+  margin: 15px 0px 0px 10px;
+}

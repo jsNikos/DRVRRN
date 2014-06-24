@@ -1,0 +1,14 @@
+<svg height="40" version="1.1" width="40"
+	xmlns="http://www.w3.org/2000/svg">
+<desc>Created with Raphael 2.1.2</desc>
+<path style="stroke-linejoin: round; opacity: 0;" fill="none"
+		stroke="#ffffff"
+		d="M4.082,4.083V7.082000000000001H26.917V4.083H4.082ZM4.082,20.306H26.917V17.307000000000002H4.082V20.306ZM4.082,13.694H26.917V10.695H4.082V13.694ZM4.082,26.917H26.917V23.918000000000003H4.082V26.917Z"
+		stroke-width="3" stroke-linejoin="round" opacity="0"
+		transform="matrix(1,0,0,1,4,4)" />
+<path style="" fill="#333333" stroke="none"
+		d="M4.082,4.083V7.082000000000001H26.917V4.083H4.082ZM4.082,20.306H26.917V17.307000000000002H4.082V20.306ZM4.082,13.694H26.917V10.695H4.082V13.694ZM4.082,26.917H26.917V23.918000000000003H4.082V26.917Z"
+		transform="matrix(1,0,0,1,4,4)" />
+<rect x="0" y="0" width="32" height="32" r="0" rx="0" ry="0"
+		fill="#000000" stroke="#000" style="opacity: 0;" opacity="0" />
+</svg>
